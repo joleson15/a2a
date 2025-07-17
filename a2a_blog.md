@@ -30,7 +30,7 @@ from dotenv import load_dotenv
 load_dotenv()
 ```
 
-<!-- If you would like to follow along, and don't want to copy and paste -->
+If you would like to follow along, and don't want to copy and paste code, you can clone this github [repo](https://github.com/joleson15/a2a.git)
 
 ```python
 from google.adk.agents import Agent
