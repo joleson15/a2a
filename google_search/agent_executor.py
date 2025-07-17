@@ -11,6 +11,10 @@ from google.adk.sessions import InMemorySessionService
 from google.adk.memory import InMemoryMemoryService
 from google.genai import types
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 class GoogleSearchAgentExecutor(AgentExecutor):
 
     def __init__(self, agent: Agent, status_message: str = "Executing task...", artifact_name: str = "response"):
